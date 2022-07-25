@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- CSS  -->
+  <link rel="stylesheet" href="./styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <title>Microsoft</title>
+
+
+
+</head>
+<body>
+  <nav id="Nav" class="navbar navbar-expand-lg navbar-light max-width-screen" style="height: 56px;">
+    <div id="nav-child" class="container-fluid px-0">
+      <label id="arrow-button" class="btn d-none d-lg-none d-sm-none" style="border: none !important">
+        <span class="pe-2">
+          <i class="bi bi-arrow-left"></i>
+        </span>
+      </label>
+      <label id="navbar-toggler-icon" class="navbar-toggler px-0" for="mainmenu-toggler">
+        <span class="navbar-toggler-icon"></span>
+      </label>
+      <input type="checkbox" id="mainmenu-toggler" class="d-none">
+      <ul class="collapse-menu">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Microsoft 365</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Office</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Windows</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Surface</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Xbox</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Sale</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Support</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Software</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">PCs & Devices</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Entertainment</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Business</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Developer & IT</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Other</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">View Sitemap</a>
+        </li>
+      </ul>
+      <a id="navbar-brand-image" class="navbar-brand d-lg-block ">
+        <div>
+          <img width="108px" src="/assets/RE1Mu3b.png" class="d-block" alt="">
+        </div>
+      </a>
+      
+      
+      <!-- Left navigator menu -->
+      <ul id="left-nav" class="navbar-nav me-auto p-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Microsoft 365</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Office</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Windows</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Surface</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Xbox</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sale</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Support</a>
+        </li>
+      </ul>
+
+      <!-- Dropdown -->
+      <div id="all-microsoft" class="dropdown d-none d-lg-block">
+      <!-- <div id="all-microsoft" class="dropdown d-none"> -->
+        <label class="nav-link" for="dropdown-menu">
+          All Microsoft
+          <i class="bi bi-chevron-down"></i>
+        </label>
+        <input type="checkbox" id="dropdown-menu" class="d-none">
+        <div class="all-microsoft-menu">
+          <div class="row">
+            <div class="col-2">
+              <p>
+                <b>Software</b>
+              </p>
+              <a href="#">Windows App</a>
+              <a href="#">One Drive</a>
+              <a href="#">Outlook</a>
+              <a href="#">Skype</a>
+              <a href="#">OneNote</a>
+              <a href="#">Microsoft Teams</a>
+            </div>
+            <div class="col-2">
+              <p>
+                <b>PCs & Devices</b>
+              </p>
+              <a href="#">Shop Xbox</a>
+              <a href="#">Accessories</a>
+            </div>
+            <div class="col-2">
+              <p>
+                <b>Entertainment</b>
+              </p>
+              <a href="#">Xbox Game Pass Ultimate</a>
+              <a href="#">Xbox Live Gold</a>
+              <a href="#">Xbox Game</a>
+              <a href="#">PC Games</a>
+              <a href="#">Windows digital games</a>
+              <a href="#">Movies & TV</a>
+            </div>
+            <div class="col-2">
+              <p>
+                <b>Business</b>
+              </p>
+              <a href="#">Microsoft Cloud</a>
+              <a href="#">Microsoft Azure</a>
+              <a href="#">Microsoft Dynamic 365</a>
+              <a href="#">Microsoft 365</a>
+              <a href="#">Microsoft Industry</a>
+              <a href="#">Microsoft Advertising</a>
+              <a href="#">Shop Business</a>
+            </div>
+            <div class="col-2">
+              <p>
+                <b>Developer & IT</b>
+              </p>
+              <a href="#">.Net</a>
+              <a href="#">Visual Studio</a>
+              <a href="#">Windows Server</a>
+              <a href="#">Windows Dev Center</a>
+              <a href="#">Docs</a>
+              <a href="#">Power Platforms</a>
+              <a href="#">Power Apps</a>
+              <a href="#">HoloLens 2</a>
+            </div>
+            <div class="col-2">
+              <p>
+                <b>Other</b>
+              </p>
+              <a href="#">Microsoft Rewards</a>
+              <a href="#">Free downloads & sercurity</a>
+              <a href="#">Education</a>
+              <a href="#">Gift cards</a>
+              <a href="#">Licensing</a>
+            </div>
+          </div>
+          <div id="site-map">
+            <a href="#" class="m-0 pt-1">View Sitemap ></a>
+          </div>
+        </div>
+      </div>
+      <!-- Search -->
+      <div id="search" class="mx-2 mx-lg-3">
+        <span class="nav-item" >
+          <a href="#" class="nav-link d-none d-xl-inline">Search </a>
+          <i class="bi bi-search"></i>
+        </span>
+      </div>
+      <!-- Cart -->
+      <div id="cart" class="nav mx-2 mx-lg-3">
+        <span class="nav-item">
+          <a class="nav-link px-1 d-none d-xl-inline">Cart </a>
+          <i class="bi bi-cart3"></i>
+        </span>
+      </div>
+      <!-- Sign in -->
+      <div id="sign-in" class="px-0 mx-2 mx-lg-3">
+        <span class="nav-item">
+          <a href="#" class="nav-link px-1 d-none d-xl-inline">Sign in </a>
+          <i class="bi bi-person-plus"></i>
+        </span>
+      </div>
+
+      <!-- Search bar (display onclick the "search") -->
+
+      <div id="search-bar" class="d-flex d-none">
+        <div id="search-input" class="input-group">
+          <input type="text" class="form-control border border-primary border-2" placeholder="Search Microsoft.com" aria-label="Username" aria-describedby="basic-addon1" style="border-radius: 0;">
+          <button id="cancel-btn" class="btn btn-outline-secondary d-none d-lg-block" type="button" style="margin-left: 6px;">Cancel</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main class="max-width-screen">    
+    <!-- slider -->
+    <section id="Slider-carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-interval="8000">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <picture>
+            <source media="(min-width: 1320px)" srcset="/assets/Highlight-Surface-Laptop-Go-2-02-M01_VP5-1920x600.jpg" alt="">
+            <source media="(min-width: 1084px)" srcset="/assets/Highlight-Surface-Laptop-Go-2-02-M01_VP4-1399x600.jpg" alt="">
+            <img width="100%" height="auto" src="/assets/Highlight-Surface-Laptop-Go-2-02-M01_VP5-1920x600.jpg" class="d-block w-100" alt="...">
+          </picture>
+          <div class="first-slider-caption">
+            <div id="first-slider-caption-material" >
+              <span class="btn btn-warning mb-3 slider-new-sign"><b>New</b></span>
+              <h2> <b>Surface Laptop Go 2</b> </h2>
+              <p class="mt-3 mb-3">A sleek laptop with a 12.4-inch touchscreen, great typing experience and improved HD camera</p>
+              <div class="btn btn-primary sd-button mt-2">Shop now</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <picture>
+            <source media="(min-width: 1320px)" srcset="/assets/Highlight-Surface-Laptop-Go-2-02-M01_VP5-1920x600.jpg"
+              alt="">
+            <source media="(min-width: 1084px)" srcset="/assets/Highlight-Surface-Laptop-Go-2-02-M01_VP4-1399x600.jpg" alt="">
+            <img width="100%" height="auto" src="/assets/Highlight-Surface-Laptop-Go-2-02-M01_VP5-1920x600.jpg" class="d-block w-100" alt="...">
+          </picture>
+          <div class="first-slider-caption">
+            <div id="second-slider-caption-material">
+              <h2> <b>Surface deals</b> </h2>
+              <p class="mt-3 mb-3">Checkout the latest deals on select Surface</p>
+              <div class="btn btn-primary sd-button mt-2">Shop now</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    
+    <section id="Icon-Bar-wrap">
+      <div id="Icon-Bar">
+        <div class="bar-item">
+          <img src="/assets/gldn-Quick-Link-Icon-80x80-Microsoft-365.jpg" alt="">
+          <p>Choose your Microsoft 365</p>
+        </div>
+        <div class="bar-item">
+          <img src="/assets/icon-LL-surface-kickstand-120x120.jpg" alt="">
+          <p>Shop Surface devices</p>
+        </div>
+        <div class="bar-item">
+          <img src="/assets/gldn-ICON-LL-xbox-logo-120x120.jpg" alt="">
+          <p>Buy Xbox games and consoles</p>
+        </div>
+        <div class="bar-item">
+          <img src="/assets/gldn-Quick-Link-Icon-80x80-Microsoft-365.jpg" alt="">
+          <p>Get Windows 11</p>
+        </div>
+        <div class="bar-item">
+          <img src="/assets/gldn-ICON-LL-briefcase-120x120.jpg" alt="">
+          <p>Shop Business</p>
+        </div>
+      </div>
+    </section>
+    
+
+    <!-- First Grid -->
+    <section id="grid" class="row pt-3 px-0">
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3" >
+        <div class="card text-left border-0" >
+          <img src="/assets/Gldn-mscom-01-Black-Platinum-CP01.jpg" class="card-img-top" alt="">
+          <div class="card-body px-0">
+            <h5 class="card-title">Surface Laptop 4</h5>
+            <p>Do it all with a perfect balance of sleek, ultra-thin design, multitasking speed and improved performance.</p>
+            <a href="" class="card-link nounderline">Shop now <i class="bi bi-chevron-right"></i></a> 
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3" >
+        <div class="card text-left border-0" >
+          <img src="/assets/gldn-CP-m365-icons-7up-1668x940.jpg" class="card-img-top" alt="">
+          <div class="card-body px-0">
+            <h5 class="card-title">Microsoft 365</h5>
+            <p>Premium Office apps, extra cloud storage, advanced security, and more – all in one convenient subscription.</p>
+            <a href="#" class="card-link nounderline mr-2">For up to 6 people<span><i class="bi bi-chevron-right"></i></span></a>
+            <a href="#" class="card-link nounderline d-inline-block mx-0 mt-2">
+                For 1 person
+                <span>
+                <i class="bi bi-chevron-right"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3" >
+        <div class="card text-left border-0" >
+          <img src="/assets/gldn-XSS-CP-Xbox-Series-S.jpg" class="card-img-top" alt="">
+          <div class="card-body px-0">
+            <h5 class="card-title">Xbox Series S</h5>
+            <p>Next-gen performance in the smallest Xbox ever.</p>
+            <a href="" class="card-link nounderline">Shop now<span><i class="bi bi-chevron-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3" >
+        <div class="card text-left border-0" >
+          <img src="/assets/Xbox-Controller-Valentine-CP.jpg" class="card-img-top" alt="">
+          <div class="card-body px-0">
+            <h5 class="card-title">Xbox controllers</h5>
+            <p>Elite, wireless, adaptive – find the controller that fits your style of play.</p>
+            <a href="" class="card-link nounderline">Shop now<span><i class="bi bi-chevron-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Big Image -->
+    <section class="my-5 w-100 mb-5">
+      <div id="big-image" class="">
+        <picture>
+          <source media="(max-width: 859px)" srcset="/assets/Highlight-Slim-Multi-Canvas-AEM-PC-Game-Pass-Expansion_VP2-859x540.jpg" alt="">
+          <source media="(max-width: 1083px)"
+            srcset="/assets/Highlight-Slim-Multi-Canvas-AEM-PC-Game-Pass-Expansion_VP3-1083x600.jpg" alt="">
+          <source media="(min-width: 1084px)" srcset="/assets/Highlight-Slim-Multi-Canvas-AEM-PC-Game-Pass-Expansion_VP5-1596x600.jpg"
+            alt="">
+          <img width="100%" height="auto" src="/assets/Highlight-Slim-Multi-Canvas-AEM-PC-Game-Pass-Expansion_VP5-1596x600.jpg" alt="">        
+        </picture>
+        <div id="big-image-caption">
+          <div id="caption-material" class="container">
+            <h2>
+              <b>PC Game Pass</b>
+            </h2>
+            <p class="mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta atque eaque id rerum ipsam Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            </p>
+            <div class="btn btn-primary button">
+              <b>Join now</b>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    
+    <!-- Second Grid -->
+    
+    <section id="Second-Grid" class="row mt-5 px-0">
+      <div class="heading mb-3">
+        <h2 class="x-hidden-focus">For business</h2>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 secgrid">
+        <div class="card border-0">
+          <img src="/assets/Content-Card-Surface-Laptop-Go-2-03-M01.jpg" class="card-img-top" alt="">
+          <div class="card-header pt-3 px-0">
+            <span class="btn btn-warning btn-sm"><b> New </b></span>
+          </div>
+          <div class="card-body px-0 py-0">
+            <h6 class="card-title"><b>Surface Laptop Go 2 for Business</b></h6>
+            <p class="card-text ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, vero tempore aliquid</p>
+              <span style="color: #005293; font-weight: 500;">Shop now<i class="bi bi-chevron-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 secgrid">
+        <div class="card border-0">
+          <img src="/assets/gldn-CP-Microsoft-Teams-Commercial.jpg" class="card-img-top" alt="">
+          <div class="card-header pt-3"></div>
+          <div class="card-body px-0 py-0">
+            <h6 class="card-title"><b>Get Microsoft Teams for free</b></h6>
+            <p class="card-text ">Online meetings, chat and shared cloud storage - all in one place.</p>
+              <span style="color: #005293; font-weight: 500;">Sign up for free<i class="bi bi-chevron-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 secgrid">
+        <div class="card border-0">
+          <img src="/assets/Content-Card-Brand-Hybrid-Work.jpg" class="card-img-top" alt="">
+          <div class="card-header pt-3"></div>
+          <div class="card-body px-0 py-0">
+            <h6 class="card-title"><b>Thrive in hybird world</b></h6>
+            <p class="card-text ">Discover tools, resources and strategies to help your employees succeed in the new world of flexible work.</p>
+              <span style="color: #005293; font-weight: 500;">Learn more<i class="bi bi-chevron-right"></i></span>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-6 col-xl-3 secgrid">
+        <div class="card border-0">
+          <img src="/assets/JIC-DPS-CP01.jpg" class="card-img-top" alt="">
+          <div class="card-header pt-3"></div>
+          <div class="card-body px-0 py-0">
+            <h6 class="card-title"><b>Welcome to your Windows 365 Cloud PC</b></h6>
+            <p class="card-text ">Securely stream your Windows experience from the Microsoft cloud to any device.</p>
+              <span style="color: #005293; font-weight: 500;">Get it today<i class="bi bi-chevron-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+    <!-- Back to top button -->
+    <section id="back-to-top-button" class="sticky-bottom d-flex p-3 px-0 d-none">
+      <div class="b2t-btn">
+        <a href="#" class="btn text-center">Back to top</a>
+      </div>
+    </section>
+
+  <footer>
+    <div id="footer-content" class="max-width-screen">
+        <div class="row">
+          <div class="col-12 col-sm-4 col-xl-2">
+            <h6>What's new</h6>
+              <ul class="p-0 mt-3 mb-3">
+                <li>Surface Laptop Go 2</li>
+                <li>Surface Pro 8</li>
+                <li>Surface Laptop Studio</li>
+                <li>Surface Pro X</li>
+                <li>Surface Go 3</li>
+                <li>Surface Laptop 4</li>
+                <li>Microsoft 365</li>
+                <li>Windows 11 apps</li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-xl-2">
+            <h6>Microsoft Store</h6>
+              <ul class="p-0 mt-3 mb-3">
+                <li>Account profile</li>
+                <li>Download Center</li>
+                <li>Microsoft Store Support</li>
+                <li>Returns</li>
+                <li>Order tracking</li>
+                <li>Microsoft Store Promise</li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-xl-2">
+            <h6>Education</h6>
+              <ul class="p-0 mt-3 mb-3">
+                <li>Microsoft in education</li>
+                <li>Devices for education</li>
+                <li>Microsoft Teams for Education</li>
+                <li>Microsoft 365 Education</li>
+                <li>Office Education</li>
+                <li>Educator training and development</li>
+                <li>Deals for students and parents</li>
+                <li>Azure for students</li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-xl-2">
+            <h6>Business</h6>
+              <ul class="p-0 mt-3 mb-3">
+                <li>Microsoft Cloud</li>
+                <li>Microsoft Security</li>
+                <li>Azure</li>
+                <li>Dynamics 365</li>
+                <li>Microsoft 365</li>
+                <li>Microsoft Advertising</li>
+                <li>Microsoft Industry</li>
+                <li>Microsoft Teams</li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-xl-2">
+            <h6>Developer & IT</h6>
+              <ul class="p-0 mt-3 mb-3">
+                <li>Developer Center</li>
+                <li>Documentation</li>
+                <li>Microsoft Learn</li>
+                <li>Microsoft Tech Community</li>
+                <li>Azure Marketplace</li>
+                <li>AppSource</li>
+                <li>Microsoft Power Platform</li>
+                <li>Visual Studio</li>
+              </ul>
+          </div>
+          <div class="col-12 col-sm-4 col-xl-2">
+            <h6>Company</h6>
+              <ul class="p-0 mt-3 mb-3">
+                <li>Careers</li>
+                <li>Company news</li>
+                <li>Privacy at Microsoft</li>
+                <li>Investors</li>
+                <li>Sustainability</li>
+              </ul>
+          </div>
+        </div>
+    </div>
+    <div id="bottom-content" class="max-width-screen">
+      <div id="bottom">
+        <div id="lang">
+          <i class="bi bi-globe"></i>
+          <span>English (New Zealand)</span>
+        </div>
+        <div id="terms">
+          <span id="terms-item" class="d-inline-block">Contact Microsoft</span>
+          <span id="terms-item" class="d-inline-block">Privacy</span>
+          <span id="terms-item" class="d-inline-block">Terms of use</span>
+          <span id="terms-item" class="d-inline-block">Trademarks</span>
+          <span id="terms-item" class="d-inline-block">About our ads</span>
+          <span class="d-inline-block">© Microsoft 2022</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="./microsoft.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>

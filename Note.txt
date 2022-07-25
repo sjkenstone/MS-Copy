@@ -1,0 +1,36 @@
+//The code below shows when scroll up to top, button will disappear
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function () {
+       $(window).scroll(function () {
+           if ($(this).scrollTop() > 200) {
+               $('a#back-to-top').fadeIn();
+           } else {
+               $('a#back-to-top').fadeOut();
+           }
+       });
+       $('.scrollup').click(function () {
+           $("html, body").animate({
+               scrollTop: 0
+           }, 600);
+           return false;
+       });
+   });
+  </script>
+  
+  Javascript
+//Pick up the position of "back to top" button
+Const b2t-btn = document.getElementById("back-to-top-button");
+Const b2t-btn-posistion = b2t-btn.offsetTop;
+
+//If page scroll to top (e.g 0~100px) position, then set "b2t-btn" display to none
+function myFunction() {
+	if(window.scrollY <= 100px) {
+		b2t-btn.classList.add("d-none")
+	} else {
+		b2t-btn.classList.remove("d-none");
+	}
+}
+
+一些问题
+1. 如何查看addEventListener event 的 scroll里的内容
